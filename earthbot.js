@@ -10,7 +10,7 @@ let isRankEnabled = true;
 let date = Date.now();
 
 client.on("ready", () => {
-    const mainChat = client.channels.cache.get("722176672501334098");
+    const mainChat = client.channels.cache.get(/* channel id */);
     mainChat.send("I have a dream");
 });
 
